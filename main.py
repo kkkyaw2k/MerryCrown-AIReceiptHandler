@@ -3,14 +3,15 @@ from fastapi.security import APIKeyHeader
 from fastapi.middleware.cors import CORSMiddleware
 import os
 import uvicorn
+from dotenv import load_dotenv
 
 app = FastAPI(title="MerryCrown AI Receipt Handler")
 
 # ==========================================
 # SECURITY: API Key Setup
 # ==========================================
-from dotenv import load_dotenv
-load_dotenv() # Load variables from .env
+
+load_dotenv()
 
 API_KEY_NAME = "x-api-key"
 API_KEY = os.getenv("API_KEY")
@@ -50,10 +51,11 @@ app.add_middleware(
 async def root():
     return {"message": "MerryCrown AI Receipt Handler API is running securely!"}
 
-# Health checks are usually kept PUBLIC so Render can monitor if the server is alive
+# Health checks are usually kept PUBLIC so gronjob can ping it to keep server active
 @app.get("/health")
 async def health():
     return {"status": "ok"}
+
 
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=1000, reload=True)
