@@ -8,7 +8,7 @@ app = FastAPI(title="MerryCrown AI Receipt Handler")
 origins = [
     "http://localhost:3000",
     "http://localhost:5173",
-    # "https://your-frontend-domain.com", # Add your actual domains here
+    "https://merry-crown-backend.vercel.app/",
 ]
 
 app.add_middleware(
