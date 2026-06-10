@@ -1,0 +1,22 @@
+{
+    "store_name": "Takashimaya Singapore",
+    "receipt_no": "10197 0001 12051 75784",
+    "receipt_date": "2025-04-25",
+    "customer_id": 0,
+    "items": [
+        {
+            "item_name": "Chanel Col",
+            "item_code": null,
+            "quantity": 1,
+            "price": 75.7,
+            "line_subtotal": 75.7,
+            "discount": 0.0,
+            "remarks": null
+        }
+    ],
+    "total": 75.7,
+    "tax": 9.0,
+    "remarks": "Department: Cosmetic. Handwritten notes excluded from item field (e.g., Glona, O/C, Cosmetic, No exchange no refund). Discountable: 75.70; Code 93: 0.00.",
+    "amounts_are_post_tax": true,
+    "is_balanced": true
+}

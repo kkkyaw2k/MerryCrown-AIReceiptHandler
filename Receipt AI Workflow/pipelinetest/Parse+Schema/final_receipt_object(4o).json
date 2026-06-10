@@ -1,0 +1,78 @@
+{
+    "store_name": "Shilla Duty Free",
+    "receipt_no": null,
+    "receipt_date": null,
+    "customer_id": 0,
+    "items": [
+        {
+            "item_name": "KER SPEC STIMA SPR 125ML",
+            "item_code": "094112000065800",
+            "quantity": 6,
+            "discount": 10.0,
+            "price": 84.0,
+            "remarks": null
+        },
+        {
+            "item_name": "KER DE BAIN STEMFREE 250ML N",
+            "item_code": "094113000338800",
+            "quantity": 5,
+            "discount": 6.9,
+            "price": 46.0,
+            "remarks": null
+        },
+        {
+            "item_name": "KER TSC37800 25 ST TIER2 GWP",
+            "item_code": "2094100746",
+            "quantity": 3,
+            "discount": 0.0,
+            "price": 0.0,
+            "remarks": "GWP"
+        },
+        {
+            "item_name": "DIPTYQUE PFM TREX EDP Fdp/Eau 30ml",
+            "item_code": "064113000783800",
+            "quantity": 2,
+            "discount": 40.2,
+            "price": 268.0,
+            "remarks": null
+        },
+        {
+            "item_name": "DIPTYQUE PFM EDT Fleur de Peau 100ml",
+            "item_code": "064113000048800",
+            "quantity": 2,
+            "discount": 36.45,
+            "price": 243.0,
+            "remarks": null
+        },
+        {
+            "item_name": "DIPTYQUE PFM EDT Fleur de Peau 50ml",
+            "item_code": "064113000255800",
+            "quantity": 3,
+            "discount": 25.65,
+            "price": 171.0,
+            "remarks": null
+        },
+        {
+            "item_name": "DIP CANDLE FIGUIER 35G GWP",
+            "item_code": "2064101032",
+            "quantity": 4,
+            "discount": 0.0,
+            "price": 0.0,
+            "remarks": "GWP"
+        },
+        {
+            "item_name": "DIP DO SON EDT 5ML GWP",
+            "item_code": "2064101033",
+            "quantity": 6,
+            "discount": 0.0,
+            "price": 0.0,
+            "remarks": "GWP"
+        }
+    ],
+    "total": 1928.58,
+    "tax": 0.09,
+    "commission": 0.05,
+    "remarks": null,
+    "amounts_are_post_tax": false,
+    "is_balanced": true
+}

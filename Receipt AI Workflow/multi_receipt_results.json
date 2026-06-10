@@ -1,0 +1,122 @@
+[
+  {
+    "store_name": "Louis Vuitton Changi Airport II",
+    "receipt_no": null,
+    "receipt_date": "10/5/26",
+    "customer_id": 0,
+    "items": [
+      {
+        "item_name": "SPELL ON YOU 100ML EDP (LP0212)",
+        "item_code": "LP0212",
+        "quantity": 1,
+        "price": 480.0,
+        "line_subtotal": 480.0,
+        "discount": 0.0,
+        "remarks": null
+      },
+      {
+        "item_name": "ELVES LOUIS VUITTON 100ML EDP (LP0418)",
+        "item_code": "LP0418",
+        "quantity": 1,
+        "price": 480.0,
+        "line_subtotal": 480.0,
+        "discount": 0.0,
+        "remarks": null
+      },
+      {
+        "item_name": "SYMPHONY 100ML PARFUH (LP0249)",
+        "item_code": "LP0249",
+        "quantity": 1,
+        "price": 840.0,
+        "line_subtotal": 840.0,
+        "discount": 0.0,
+        "remarks": null
+      }
+    ],
+    "total": 0.0,
+    "tax": 0.09,
+    "remarks": null,
+    "amounts_are_post_tax": false,
+    "is_balanced": true
+  },
+  {
+    "store_name": "Takashimaya",
+    "receipt_no": null,
+    "receipt_date": null,
+    "customer_id": 0,
+    "items": [
+      {
+        "item_name": "Chanel Col",
+        "item_code": null,
+        "quantity": 1,
+        "price": 1870.0,
+        "line_subtotal": 1870.0,
+        "discount": 0.0,
+        "remarks": null
+      },
+      {
+        "item_name": "Chanel",
+        "item_code": null,
+        "quantity": 1,
+        "price": 1870.0,
+        "line_subtotal": 1870.0,
+        "discount": 0.0,
+        "remarks": null
+      }
+    ],
+    "total": 3740.0,
+    "tax": 0.0,
+    "remarks": "No exchange; no refund",
+    "amounts_are_post_tax": false,
+    "is_balanced": true
+  },
+  {
+    "store_name": "THE SHILLA DUTY FREE",
+    "receipt_no": null,
+    "receipt_date": null,
+    "customer_id": 0,
+    "items": [
+      {
+        "item_name": "CHANEL MAKE H GLOW SUMM 685 COL 1H26",
+        "item_code": null,
+        "quantity": 2,
+        "price": 340.0,
+        "line_subtotal": 680.0,
+        "discount": 0.0,
+        "remarks": null
+      },
+      {
+        "item_name": "Y 9999 GSTSAVING",
+        "item_code": null,
+        "quantity": 1,
+        "price": -56.17,
+        "line_subtotal": -56.17,
+        "discount": 0.0,
+        "remarks": null
+      },
+      {
+        "item_name": "CHANEL MAKE H GLOW SUMM COL 1H26",
+        "item_code": null,
+        "quantity": 1,
+        "price": 340.0,
+        "line_subtotal": 340.0,
+        "discount": 0.0,
+        "remarks": null
+      },
+      {
+        "item_name": "Y 9999 GSTSAVING",
+        "item_code": null,
+        "quantity": 1,
+        "price": -28.08,
+        "line_subtotal": -28.08,
+        "discount": 0.0,
+        "remarks": null
+      }
+    ],
+    "total": 0.0,
+    "tax": 0.09,
+    "remarks": null,
+    "amounts_are_post_tax": false,
+    "is_balanced": false
+  }
+]

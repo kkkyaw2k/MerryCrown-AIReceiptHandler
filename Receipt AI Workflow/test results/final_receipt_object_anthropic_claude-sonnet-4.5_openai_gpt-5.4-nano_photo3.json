@@ -1,0 +1,22 @@
+{
+    "store_name": "Takashimaya",
+    "receipt_no": null,
+    "receipt_date": null,
+    "customer_id": 0,
+    "items": [
+        {
+            "item_name": "[Illegible item details]",
+            "item_code": null,
+            "quantity": 0,
+            "price": 0.0,
+            "line_subtotal": 0.0,
+            "discount": 0.0,
+            "remarks": "Text too faint/unclear to transcribe accurately. Visible fragments include references to 'SHISEIDO' and 'DEODORANT' but complete line items cannot be reliably transcribed."
+        }
+    ],
+    "total": 0.0,
+    "tax": 9.0,
+    "remarks": "GST/tax calculation and totals are not legible. Receipt appears to be only Section A of a multi-part slip; notes 'SLIP INVALID UNLESS SECTION (B) MACHINE-PRINTED'. Handwritten notes visible: 'Gloria', 'D/C', 'Cosmetic'. Remarks appear to say 'no exchange' and 'no refund'. Extension field shows '1'.",
+    "amounts_are_post_tax": true,
+    "is_balanced": true
+}

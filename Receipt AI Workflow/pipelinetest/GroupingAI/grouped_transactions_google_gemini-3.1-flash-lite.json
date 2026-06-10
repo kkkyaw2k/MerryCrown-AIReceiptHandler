@@ -1,0 +1,47 @@
+[
+  {
+    "transaction_index": 1,
+    "image_filenames": [
+      "photo1-1.jpg",
+      "photo1-2.jpg"
+    ],
+    "reason": "photo1-2 is a direct continuation of the item list and totals from photo1-1 for The Shilla Duty Free."
+  },
+  {
+    "transaction_index": 2,
+    "image_filenames": [
+      "photo2.jpg"
+    ],
+    "reason": "Independent Louis Vuitton receipt."
+  },
+  {
+    "transaction_index": 3,
+    "image_filenames": [
+      "photo3.jpg",
+      "photo5-1.jpg",
+      "photo5-2.jpg"
+    ],
+    "reason": "These three images form a single continuous Takashimaya transaction (10197 0001 12051 75784) with sequential page markers."
+  },
+  {
+    "transaction_index": 4,
+    "image_filenames": [
+      "photo4.jpg"
+    ],
+    "reason": "Independent Speedy PM / Poh Mal receipt."
+  },
+  {
+    "transaction_index": 5,
+    "image_filenames": [
+      "photo6.jpg"
+    ],
+    "reason": "Independent Takashimaya receipt (11198 0001 11061 82899)."
+  },
+  {
+    "transaction_index": 6,
+    "image_filenames": [
+      "photo7.jpg"
+    ],
+    "reason": "Independent The Shilla Duty Free receipt."
+  }
+]

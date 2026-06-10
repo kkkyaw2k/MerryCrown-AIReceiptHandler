@@ -1,0 +1,22 @@
+{
+    "store_name": "Takashimaya (logo visible; full store name unclear)",
+    "receipt_no": null,
+    "receipt_date": null,
+    "customer_id": 0,
+    "items": [
+        {
+            "item_name": "",
+            "item_code": null,
+            "quantity": 0,
+            "price": 0.0,
+            "line_subtotal": 0.0,
+            "discount": 0.0,
+            "remarks": "Handwritten note appears to read \u201cGloria D/C Comml\u201d, but no matching printed item lines are readable."
+        }
+    ],
+    "total": 0.0,
+    "tax": 9.0,
+    "remarks": "Receipt/slip number, date/time, address/store location, and all totals/payment amounts are not fully legible. Item rows are too blurred/washed out to accurately transcribe digits; no invented values included. GST/tax amounts are not legible, so pre-tax vs post-tax cannot be confirmed.",
+    "amounts_are_post_tax": false,
+    "is_balanced": true
+}

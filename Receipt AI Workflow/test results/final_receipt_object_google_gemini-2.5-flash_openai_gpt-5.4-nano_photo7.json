@@ -1,0 +1,12 @@
+{
+    "store_name": "THE SHILLA duty free",
+    "receipt_no": "SHPC12026117144015",
+    "receipt_date": null,
+    "customer_id": 0,
+    "items": [],
+    "total": 0.0,
+    "tax": 9.0,
+    "remarks": "GST/Tax strategy analysis provided: receipt states \"CST @ 9.03%\" and implies pre-tax pricing with GST added, but item-level and summary-level monetary figures were not included in the transcription. Items table header was present without actual rows.",
+    "amounts_are_post_tax": false,
+    "is_balanced": true
+}

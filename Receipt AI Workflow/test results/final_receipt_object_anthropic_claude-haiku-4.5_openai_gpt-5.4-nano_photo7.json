@@ -1,0 +1,31 @@
+{
+    "store_name": "THE SHILLA duty free (Cosmetics & Perfumes)",
+    "receipt_no": "5156943",
+    "receipt_date": "2012-07-05",
+    "customer_id": 0,
+    "items": [
+        {
+            "item_name": "Lidan Make H O Dr Shim 1405",
+            "item_code": "2326",
+            "quantity": 1,
+            "price": 340.0,
+            "line_subtotal": 340.0,
+            "discount": 50.0,
+            "remarks": "Discount applied"
+        },
+        {
+            "item_name": "Thin Zar Wae H ...",
+            "item_code": "1416",
+            "quantity": 1,
+            "price": 340.0,
+            "line_subtotal": 340.0,
+            "discount": 26.08,
+            "remarks": "Discount applied"
+        }
+    ],
+    "total": 1048.16,
+    "tax": 92.0,
+    "remarks": "Receipt location: Incheon International Airport, South Korea. GST/VAT rate shown: 9.63%. Payment method: CREDIT/DEBIT CARDS. Amount charged listed separately as \u20a91,019.96. Reconciliation issue: subtotal and totals do not reconcile with visible line prices and discounts; displayed subtotal (\u20a9955.16) differs from expected (\u20a9595.75), and amount charged (\u20a91,019.96) does not match total (\u20a91,048.16).",
+    "amounts_are_post_tax": false,
+    "is_balanced": false
+}

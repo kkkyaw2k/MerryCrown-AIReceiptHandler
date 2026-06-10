@@ -1,0 +1,184 @@
+{
+    "receipts": [
+        {
+            "store_name": "The Shilla Duty Free (Changi Airport)",
+            "receipt_no": null,
+            "receipt_date": null,
+            "customer_id": 0,
+            "items": [
+                {
+                    "item_name": "KER SPEC STIMUL SPR 125ML",
+                    "item_code": null,
+                    "quantity": 6,
+                    "discount": 18.25,
+                    "price": 84.0,
+                    "remarks": null
+                },
+                {
+                    "item_name": "KER DE BAIN STEMFREE 250ML",
+                    "item_code": null,
+                    "quantity": 5,
+                    "discount": 10.23,
+                    "price": 46.0,
+                    "remarks": null
+                },
+                {
+                    "item_name": "KER TSC37800 25 S1 TIER2 GWP",
+                    "item_code": null,
+                    "quantity": 3,
+                    "discount": 0.0,
+                    "price": 0.0,
+                    "remarks": "GWP"
+                },
+                {
+                    "item_name": "DIPTYQUE PFM TREK DUO EDP",
+                    "item_code": null,
+                    "quantity": 2,
+                    "discount": 58.72,
+                    "price": 268.0,
+                    "remarks": null
+                },
+                {
+                    "item_name": "DIPTYQUE PFM EDT FLEUR DE PEAU 100ML",
+                    "item_code": null,
+                    "quantity": 2,
+                    "discount": 53.51,
+                    "price": 243.0,
+                    "remarks": null
+                },
+                {
+                    "item_name": "DIPTYQUE PFM EDT FLEUR DE PEAU 50ML",
+                    "item_code": null,
+                    "quantity": 3,
+                    "discount": 38.16,
+                    "price": 171.0,
+                    "remarks": null
+                },
+                {
+                    "item_name": "DIP CANDLE FIGUIER 35G GWP",
+                    "item_code": null,
+                    "quantity": 4,
+                    "discount": 0.0,
+                    "price": 0.0,
+                    "remarks": "GWP"
+                },
+                {
+                    "item_name": "DIP DO SON EDT 5ML GWP",
+                    "item_code": null,
+                    "quantity": 6,
+                    "discount": 0.0,
+                    "price": 0.0,
+                    "remarks": "GWP"
+                }
+            ],
+            "total": 1928.58,
+            "tax": 0.09,
+            "commission": 0.05,
+            "remarks": "GST/Tax Strategy indicates prices inclusive of GST; GST calculated as a separate block (9.00%) on subtotal to reach final amount. Total Discounts: -499.66 (GST Saving: -159.31, Other disc: -340.35). Payment: Credit Card (Master), last 4 digits 2266.",
+            "amounts_are_post_tax": true,
+            "is_balanced": false
+        },
+        {
+            "store_name": "The Shilla Duty Free (Changi Airport)",
+            "receipt_no": null,
+            "receipt_date": null,
+            "customer_id": 0,
+            "items": [
+                {
+                    "item_name": "GUERLAIN SKIN AG/REV 24 ESS 150ML",
+                    "item_code": null,
+                    "quantity": 2,
+                    "discount": 34.55,
+                    "price": 156.9,
+                    "remarks": null
+                },
+                {
+                    "item_name": "GUERLAIN SKIN AH CURE 28DS / DAYS",
+                    "item_code": null,
+                    "quantity": 4,
+                    "discount": 16.66,
+                    "price": 73.6,
+                    "remarks": null
+                },
+                {
+                    "item_name": "BENEFIT MAKE POREFESSIONAL",
+                    "item_code": null,
+                    "quantity": 1,
+                    "discount": 30.17,
+                    "price": 137.0,
+                    "remarks": null
+                },
+                {
+                    "item_name": "KERASTAS BAIN PREV DUO N STIMUL SET",
+                    "item_code": null,
+                    "quantity": 1,
+                    "discount": 41.24,
+                    "price": 155.0,
+                    "remarks": null
+                },
+                {
+                    "item_name": "DIOR MAKE FRV BLUSH ST FLT 01",
+                    "item_code": null,
+                    "quantity": 1,
+                    "discount": 12.84,
+                    "price": 58.3,
+                    "remarks": null
+                },
+                {
+                    "item_name": "CHANEL MAKE LE ROUGE DUO B.RED 176",
+                    "item_code": null,
+                    "quantity": 2,
+                    "discount": 13.43,
+                    "price": 61.0,
+                    "remarks": null
+                },
+                {
+                    "item_name": "KERASTAS BODY PROG GEN JUMBO BAIN",
+                    "item_code": null,
+                    "quantity": 3,
+                    "discount": 46.65,
+                    "price": 212.0,
+                    "remarks": null
+                },
+                {
+                    "item_name": "GUER G301112 GWP",
+                    "item_code": null,
+                    "quantity": 1,
+                    "discount": 0.0,
+                    "price": 0.0,
+                    "remarks": "GWP"
+                },
+                {
+                    "item_name": "KERASTAS BODY GEN CURE PEAR ANP",
+                    "item_code": null,
+                    "quantity": 6,
+                    "discount": 18.48,
+                    "price": 84.0,
+                    "remarks": null
+                },
+                {
+                    "item_name": "BROND MASQUE 200ML",
+                    "item_code": null,
+                    "quantity": 4,
+                    "discount": 20.68,
+                    "price": 94.0,
+                    "remarks": null
+                },
+                {
+                    "item_name": "KER TSC37800 25 S1 TIER2 GWP",
+                    "item_code": null,
+                    "quantity": 1,
+                    "discount": 0.0,
+                    "price": 0.0,
+                    "remarks": "GWP"
+                }
+            ],
+            "total": 2217.49,
+            "tax": 0.09,
+            "commission": 0.05,
+            "remarks": "GST/Tax Strategy indicates prices inclusive of GST; GST calculated as a separate block (9.00%) on subtotal to reach final amount. Total Discounts: -562.10 (GST Saving: -183.17, Other disc: -378.93). Payment: Credit Card (Visa), last 4 digits 1657.",
+            "amounts_are_post_tax": true,
+            "is_balanced": false
+        }
+    ]
+}
