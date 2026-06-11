@@ -185,3 +185,4 @@ test.py
 *.bat
 graphify-out/
 Receipt AI Workflow Test/
+.agents/
