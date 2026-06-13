@@ -7,8 +7,12 @@ from dotenv import load_dotenv
 import supabase
 from fastapi import BackgroundTasks
 from model import DraftReceiptCreate, UploadRequest
+import logging
 
 load_dotenv()
+
+# Configure logging to output to stdout (visible in Render logs)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 app = FastAPI(title="MerryCrown AI Receipt Handler")
 
