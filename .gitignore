@@ -186,3 +186,4 @@ test.py
 graphify-out/
 Receipt AI Workflow Test/
 .agents/
+.graphifyignore
