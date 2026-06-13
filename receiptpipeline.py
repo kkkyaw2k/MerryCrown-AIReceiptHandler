@@ -92,30 +92,30 @@ def parse_stage3(client: OpenAI, markdown_text: str) -> dict:
 async def process_receipts_background(request: UploadRequest, supabase):
     client = openaiclient()
     
-    print(f"\n--- Started processing batch: {request.batch_id} | Total Images: {len(request.img_urls)} ---")
+    logging.info(f"--- Started processing batch: {request.batch_id} | Total Images: {len(request.img_urls)} ---")
     
     # Stage 1: Group
-    print("Executing Stage 1: Grouping images...")
+    logging.info("Executing Stage 1: Grouping images...")
     groups = group_images_stage1(client, request.img_urls)
-    print(f"Stage 1 Complete: Found {len(groups)} logical receipt(s).")
+    logging.info(f"Stage 1 Complete: Found {len(groups)} logical receipt(s).")
     
     for i, group in enumerate(groups, 1):
         try:
-            print(f"\n>> Processing Receipt {i}/{len(groups)} (Images: {len(group)})")
+            logging.info(f">> Processing Receipt {i}/{len(groups)} (Images: {len(group)})")
             
             # Stage 2: Transcribe
-            print(f"  [{i}/{len(groups)}] Executing Stage 2: Transcribing to Markdown...")
+            logging.info(f"  [{i}/{len(groups)}] Executing Stage 2: Transcribing to Markdown...")
             raw_transcribe = transcribe_stage2(client, group)
             if "NOT_A_RECEIPT" in raw_transcribe.strip() or raw_transcribe.strip() == "NOT_A_RECEIPT":
-                print(f"  [{i}/{len(groups)}] Image is not a receipt. Silently ignoring.")
+                logging.info(f"  [{i}/{len(groups)}] Image is not a receipt. Silently ignoring.")
                 continue
             
-            print(f"  [{i}/{len(groups)}] Stage 2 Complete.")
+            logging.info(f"  [{i}/{len(groups)}] Stage 2 Complete.")
             
             # Stage 3: Parse
-            print(f"  [{i}/{len(groups)}] Executing Stage 3: Parsing to JSON Schema...")
+            logging.info(f"  [{i}/{len(groups)}] Executing Stage 3: Parsing to JSON Schema...")
             raw_receipt = parse_stage3(client, raw_transcribe)
-            print(f"  [{i}/{len(groups)}] Stage 3 Complete.")
+            logging.info(f"  [{i}/{len(groups)}] Stage 3 Complete.")
             
             # Construct DraftReceiptCreate
             # We unpack raw_receipt but safely ensure required fields are there
@@ -130,14 +130,13 @@ async def process_receipts_background(request: UploadRequest, supabase):
             )
             
             # Insert into Supabase
-            print(f"  [{i}/{len(groups)}] Saving Draft Receipt to Supabase...")
+            logging.info(f"  [{i}/{len(groups)}] Saving Draft Receipt to Supabase...")
             supabase.table("draft_receipt").insert(
                 draft_receipt.model_dump(exclude={"batch_id"}, exclude_none=True)
             ).execute()
-            print(f"  [{i}/{len(groups)}] Successfully saved to Supabase!")
+            logging.info(f"  [{i}/{len(groups)}] Successfully saved to Supabase!")
             
         except Exception as e:
-            print(f"  [{i}/{len(groups)}] ERROR: Failed to process group: {e}")
-            logging.error(f"Failed to process group {group}: {e}")
+            logging.error(f"  [{i}/{len(groups)}] Failed to process group {group}: {e}")
             
-    print(f"--- Finished processing batch: {request.batch_id} ---\n")
+    logging.info(f"--- Finished processing batch: {request.batch_id} ---")
