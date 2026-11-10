@@ -4,6 +4,7 @@ import os
 import json
 import logging
 import asyncio
+from datetime import datetime, timezone
 from model import UploadRequest, DraftReceiptCreate
 
 load_dotenv()
@@ -74,8 +75,11 @@ async def transcribe_stage2(client: AsyncOpenAI, group_urls: list[str]) -> str:
     return response.choices[0].message.content
 
 async def parse_stage3(client: AsyncOpenAI, markdown_text: str) -> dict:
+    # The model cannot know "now", so the prompt's {current_datetime} placeholder is filled in here.
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
+    system_prompt = stage_configs["stage3"]["prompt"].replace("{current_datetime}", now)
     messages = [
-        {"role": "system", "content": stage_configs["stage3"]["prompt"]},
+        {"role": "system", "content": system_prompt},
         {"role": "user", "content": markdown_text}
     ]
     
