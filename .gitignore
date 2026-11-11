@@ -187,3 +187,7 @@ graphify-out/
 Receipt AI Workflow Test/
 .agents/
 .graphifyignore
+
+# Claude Code
+.claude/
+CLAUDE.md
